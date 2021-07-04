@@ -1,12 +1,16 @@
 body {
-    margin: 0;
-    padding: 0;
     background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.page-container{
+    width: 1300px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -676,8 +680,13 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
+q, cite, p {
+    font-size: 13px;
+    font-weight: bold;
+}
+q{
+    color: black;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -710,7 +719,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -753,7 +762,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(136, 120, 75, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -766,18 +775,18 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f3976c;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffe600!important;
+    font-weight: bold;
 }
-
+.tc-black{
+    color: #000000!important;
+    font-weight: bold;
+}
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
