@@ -94,18 +94,32 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background-image: url("img/texture-paper.png");
-    background-color: rgba(0, 0, 0, 0.171);
-    background-size: 280px 280px;
-}
+
 
 .b-parallax {
     background-attachment: fixed;
 }
 
+.bgc-atomic-tangerine {
+    background-color: #ff51008e;
+}
+
+.bgc-dark-slate-blue{
+    background-color: #364577;
+}
+
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, .7); 
+}
+
+.texture-paper::before {
+    background-image: url("img/texture-paper.png"); 
+    background-color: rgba(0, 0, 0, 0.171);
+    background-size: 280px 280px;
+}
+
+.bg-dots-bg {
+    background-image: url("img/dots-bg.png"); 
 }
 
 .d-bloc button:hover {
@@ -776,13 +790,10 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-atomic-tangerine {
-    background-color: #f3976c;
-}
 
 .tc-white {
     color: #ffe600!important;
-    font-weight: bold;
+    font-weight:900;
     position: relative;
     z-index: 10;
 }
@@ -821,9 +832,7 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
+
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
@@ -1044,9 +1053,29 @@ address{
     color: black;
     font-weight: bold;
 }
+address a{
+    color: rgb(148, 71, 0) !important;
+    font-weight: bold; 
+    font-size: larger;
+    display: block;
+    margin-bottom: 5px;
+    
+}
+address a:hover{
+    color: rgb(187, 145, 105) !important;
+    
+}
+iframe{
+    width: 130%;
+    height: 340px;
+}
 @media (max-width: 1300px) {
     .page-container{
         width: 100%;
+    }
+    iframe{
+        width: 100%;
+        height: 340px;
     }
 }
 
