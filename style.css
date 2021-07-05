@@ -95,7 +95,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background-image: url("img/texture-paper.png");
+    background-color: rgba(0, 0, 0, 0.246);
     background-size: 280px 280px;
 }
 
@@ -789,7 +790,7 @@ h4 {
 }
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -827,11 +828,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere_compr.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation_compr.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1034,6 +1035,12 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .page-container{
+        width: 100%;
     }
 }
 
