@@ -96,7 +96,7 @@ a:hover {
 
 .texture-paper::before {
     background-image: url("img/texture-paper.png");
-    background-color: rgba(0, 0, 0, 0.246);
+    background-color: rgba(0, 0, 0, 0.171);
     background-size: 280px 280px;
 }
 
@@ -236,7 +236,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -656,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -783,6 +783,8 @@ h4 {
 .tc-white {
     color: #ffe600!important;
     font-weight: bold;
+    position: relative;
+    z-index: 10;
 }
 .tc-black{
     color: #000000!important;
@@ -1038,6 +1040,10 @@ h4 {
     }
 }
 
+address{
+    color: black;
+    font-weight: bold;
+}
 @media (max-width: 1300px) {
     .page-container{
         width: 100%;
@@ -1054,5 +1060,11 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .img-responsive{
+       width: 320px;
+       height: 320px; 
+       margin-left: auto;
+       margin-right: auto;
     }
 }
