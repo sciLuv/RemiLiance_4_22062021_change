@@ -321,7 +321,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 40px;
+    width: 215px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -1064,10 +1065,6 @@ address a{
 address a:hover{
     color: rgb(187, 145, 105) !important;
     
-}
-iframe{
-    width: 130%;
-    height: 340px;
 }
 @media (max-width: 1300px) {
     .page-container{
