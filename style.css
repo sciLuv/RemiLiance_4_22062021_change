@@ -769,6 +769,11 @@ h4 {
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
+
+header:focus, nav:focus, a:focus, article:focus, h1:focus, h2:focus, h3:focus, blockquote:focus, p:focus{
+    outline:red 2px solid !important ;
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .bgc-atomic-tangerine {
     background-color: #F3976C;
